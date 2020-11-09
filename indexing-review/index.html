@@ -23,5 +23,12 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-  <script type="text/javascript" src="/indexing-review/main.a2b981dd3bd748b6d7db.js"></script></body>
+    <script type="text/javascript">
+      try {
+        window.API_BASE_URI = __ENV_API_BASE_URI__;
+      } catch (err) {
+        window.API_BASE_URI = "https://api.innodata.com/v1.1";
+      }
+    </script>
+  <script type="text/javascript" src="/indexing-review/main.68d97da8379c2c425f16.js"></script></body>
 </html>
