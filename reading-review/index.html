@@ -22,7 +22,14 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+    <script type="text/javascript">
+      try {
+        window.API_BASE_URI = __ENV_API_BASE_URI__;
+      } catch (err) {
+        window.API_BASE_URI = "https://api.innodata.com/v1.1";
+      }
+    </script>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-  <script type="text/javascript" src="/reading-review/main.0e7edaef31075c0784a2.js"></script></body>
+  <script type="text/javascript" src="./main.d386315c59eceb82a1b6.js"></script></body>
 </html>
